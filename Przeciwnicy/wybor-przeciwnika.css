@@ -47,7 +47,7 @@ nav
     z-index: 999999999;
     display: flex;
     float: left;
-   height: 70px;
+   height: 55px;
    width: 55px;
  
     position: absolute;
@@ -55,8 +55,13 @@ nav
    
     margin-left: 80px;
   margin-top: -15px;
+ 
 }
 
+.ikonabr:hover
+{
+    transform: scale(1.1);
+}
 
 .wikinapis
 {
@@ -79,27 +84,38 @@ nav
     position: relative;
     
 } 
-ul li {display: inline-block;}
+
 
 .ulelule
 {
-   
+   position: fixed;
     display: flex;
    
- 
-    position: absolute;
+   
+  
     margin-left: 500px;
     margin-top: -8px;
+    float: left;
  
   
    
 }
 li{
+    display: inline-block;
     list-style-type: none;
-    padding: 30px;
+    padding: 20px;
     transition: all 0.3s;
+    
+  
+    
+    
 }
-
+ul{
+    
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 
 li:hover{
         text-decoration: none;
@@ -120,10 +136,38 @@ a
 }
 .Przeciwnik
 {
-    height: 500px;
-    width: 700px;
-    background-color: rgba(255, 255, 255, 0.509);
+    height: 380px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.25);
     border-radius: 10px;
     border: solid black 3px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+    font-size: 40px;
+text-align: center;
+transition: all 0.4s;
+margin-left: 100px;
+margin-top: 100px;
+float: left;
+
+}
+.Przeciwnik a{
+    color: black    ;
+    font-family: fantasy;
+}
+.Przeciwnik img{
+    height: 280px;
+    border-radius: 15px;
+    width: 220px;
+    padding: 10px;
+    margin-top: 10px;
     
+}
+.Przeciwnik:hover{
+transform: scale(1.1);
+margin-left: 95px;
+box-shadow: -5px 5px 3px lightslategray;
 }
