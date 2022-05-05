@@ -37,6 +37,7 @@ nav
 #wrap {
     height: 100px;
     width: 100px;
+    position: sticky;
   }
   #wrap img {
     min-height: 100%;
@@ -81,32 +82,9 @@ nav
 } 
 ul li {display: inline-block;}
 
-.ulelule
-{
-   
-    display: flex;
-   
- 
-    position: absolute;
-    margin-left: 500px;
-    margin-top: -8px;
- 
-  
-   
-}
-li{
-    list-style-type: none;
-    padding: 30px;
-    transition: all 0.3s;
-}
 
 
-li:hover{
-        text-decoration: none;
-    color: rgb(177,177,177);
-    transform: scale(1.1);
-    text-shadow: 5px 5px 5px rgb(255, 255, 255);
-}
+
 a:visited
 {
     text-decoration: none;
@@ -116,5 +94,27 @@ a
 {
     text-decoration: none;
     color:rgb(177,177,177);
+
+}
+.dekoracjabody
+{
+position: relative;
+}
+.leweciecie{
+height: 1200px;
+width: 600px;
+position: absolute;
+background-color: var(--Ciemny);
+z-index: 999;
+-webkit-transform:  rotate(38deg);
+-moz-transform:  rotate(38deg);
+-ms-transform:  rotate(38deg);
+-o-transform:  rotate(38deg);
+transform:  rotate(38deg);
+margin-top: -350px;
+margin-left: -500px;
+}
+.praweciecie
+{
 
 }
