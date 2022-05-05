@@ -21,16 +21,18 @@ nav
     left: 0px;
     right: 0px;
     background-position: top center;
-    position: sticky;
+    position: fixed;
     z-index: 99999;
     top: 0;
-    z-index: 99999;
+   
     font-family: 'Raleway', sans-serif;
     color:rgb(177,177,177);
     font-size: 20px;
-    
+  
+   
     
 }
+
 
 
 
@@ -70,7 +72,7 @@ nav
 }
 .brbar
 {
-    float: left;
+    
     display: flex;
     size: 100%;
     left: 0;
@@ -98,14 +100,17 @@ a
 }
 .dekoracjabody
 {
-position: relative;
+position: absolute;
+margin-top: -30px;
+
+
 }
 .leweciecie{
 height: 1200px;
 width: 600px;
 position: absolute;
 background-color: var(--Ciemny);
-z-index: 999;
+z-index: 2;
 -webkit-transform:  rotate(38deg);
 -moz-transform:  rotate(38deg);
 -ms-transform:  rotate(38deg);
@@ -113,8 +118,51 @@ z-index: 999;
 transform:  rotate(38deg);
 margin-top: -350px;
 margin-left: -500px;
+float: left;
+display: flex;
 }
 .praweciecie
 {
-
+    display: flex;
+         height: 1500px;
+        width: 700px;
+        position: absolute;
+        background-color: var(--Ciemny);
+        z-index: 3;
+        -webkit-transform:  rotate(38deg);
+        -moz-transform:  rotate(38deg);
+        -ms-transform:  rotate(38deg);
+        -o-transform:  rotate(38deg);
+        transform:  rotate(38deg);
+        margin-top: -380px;
+     margin-left: 50px;
+       float: left;
+        
+      
+}
+.infobr
+{
+    z-index: 9;
+    position: absolute;
+    display: flex;
+    float: left;
+    color: white;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    height: 700px;
+    z-index: 999;
+}
+.tytolinfobr
+{
+    
+font-family:'Times New Roman', Times, serif ;
+    font-size:40px ;
+    color: gray;
+    display: flex;
+    position: absolute;
+    float: left;
+    margin-top:-50px;
 }
